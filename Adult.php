@@ -6,7 +6,7 @@ Class Adult{
 
     public $nom, $prenom, $age, $genre;
 
-    const Forme=" \n les informations ici present sont correctes";
+    const info=" \n les informations ici present sont correctes";
 
     public function __construct($nom, $prenom, $age, $genre)
 {
@@ -23,9 +23,9 @@ Class Adult{
 
 // }
 
-public static function info(){
+public static function welcome(){
 
-    echo"\n si necessaire veuillez me croire!";
+    echo"ibintu vyakomeye";
  }
 
 public function afficher(){
